@@ -9,7 +9,7 @@ export const ButtonSimple = (props) => { /* Also Write the destructuring in arro
     // console.log(props.bgColor)
 
     return (
-        <button className={`btn btn-${props.bgColor}`}><i className={`fas fa-${icon} me-2`}></i>{text ? text : "Write some text"}</button>
+        <button className={`btn btn-${props.bgColor}`}><i className={`fas fa-${icon} me-2`}></i>{text ? text : "Write text"}</button>
     )
 }
 
